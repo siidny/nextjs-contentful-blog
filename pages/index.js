@@ -10,7 +10,6 @@ import { CMS_NAME } from '../lib/constants'
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
-  console.log(allPosts)
   
   
   return (
